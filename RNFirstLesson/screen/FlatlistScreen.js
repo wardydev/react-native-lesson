@@ -31,8 +31,8 @@ const FlatlistScreen = ({navigation}) => {
       />
       <View style={flatScreen.buttonContainer}>
         <Button
-          title="Go to home screen"
-          onPress={() => navigation.navigate('Home')}
+          title="Go placeholder screen"
+          onPress={() => navigation.navigate('Placeholder')}
         />
       </View>
     </View>
